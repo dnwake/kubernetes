@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"runtime"
 
-	docker "github.com/fsouza/go-dockerclient"
+	docker "github.com/dnwake/go-dockerclient"
 
 	"k8s.io/kubernetes/pkg/api"
 	clientset "k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset"

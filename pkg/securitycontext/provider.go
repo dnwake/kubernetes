@@ -23,7 +23,7 @@ import (
 	"k8s.io/kubernetes/pkg/api"
 	"k8s.io/kubernetes/pkg/kubelet/leaky"
 
-	docker "github.com/fsouza/go-dockerclient"
+	docker "github.com/dnwake/go-dockerclient"
 )
 
 // NewSimpleSecurityContextProvider creates a new SimpleSecurityContextProvider.

@@ -25,7 +25,7 @@ import (
 	"strings"
 
 	"github.com/docker/docker/pkg/jsonmessage"
-	docker "github.com/fsouza/go-dockerclient"
+	docker "github.com/dnwake/go-dockerclient"
 	"github.com/golang/glog"
 	"k8s.io/kubernetes/pkg/api"
 	"k8s.io/kubernetes/pkg/credentialprovider"
