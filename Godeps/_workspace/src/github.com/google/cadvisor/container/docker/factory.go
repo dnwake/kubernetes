@@ -27,7 +27,7 @@ import (
 	"github.com/google/cadvisor/fs"
 	info "github.com/google/cadvisor/info/v1"
 
-	"github.com/dnwake/go-dockerclient"
+	"github.com/fsouza/go-dockerclient"
 	"github.com/golang/glog"
 )
 

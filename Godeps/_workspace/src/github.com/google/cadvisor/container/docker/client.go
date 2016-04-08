@@ -20,7 +20,7 @@ package docker
 import (
 	"sync"
 
-	dclient "github.com/dnwake/go-dockerclient"
+	dclient "github.com/fsouza/go-dockerclient"
 )
 
 var (
