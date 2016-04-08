@@ -19,7 +19,7 @@ package dockertools
 import (
 	"time"
 
-	docker "github.com/fsouza/go-dockerclient"
+	docker "github.com/dnwake/go-dockerclient"
 	"k8s.io/kubernetes/pkg/kubelet/metrics"
 )
 
