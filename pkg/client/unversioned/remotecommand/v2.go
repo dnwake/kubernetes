@@ -122,7 +122,7 @@ func (e *streamProtocolV2) stream(conn httpstream.Connection) error {
 		// hang the client's terminal.
 		//
 		// go-dockerclient's current hijack implementation
-		// (https://github.com/fsouza/go-dockerclient/blob/89f3d56d93788dfe85f864a44f85d9738fca0670/client.go#L564)
+		// (https://github.com/dnwake/go-dockerclient/blob/89f3d56d93788dfe85f864a44f85d9738fca0670/client.go#L564)
 		// waits for all three streams (stdin/stdout/stderr) to finish copying
 		// before returning. When hijack finishes copying stdout/stderr, it calls
 		// Close() on its side of remoteStdin, which allows this copy to complete.

@@ -32,7 +32,7 @@ import (
 	"time"
 
 	"github.com/coreos/go-semver/semver"
-	docker "github.com/fsouza/go-dockerclient"
+	docker "github.com/dnwake/go-dockerclient"
 	"github.com/golang/glog"
 	cadvisorapi "github.com/google/cadvisor/info/v1"
 	"k8s.io/kubernetes/pkg/api"
